@@ -6,4 +6,4 @@ setopt CLOBBER
 WORDCHARS=''
 
 # set prezto to use same history file as oh-my-zsh and the macOS default
-HISTFILE="$HOME/.zsh_history"
+HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
